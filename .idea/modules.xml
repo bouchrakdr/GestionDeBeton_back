@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ms-auth/ms-auth.iml" filepath="$PROJECT_DIR$/ms-auth/ms-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-authldap/ms-authldap.iml" filepath="$PROJECT_DIR$/ms-authldap/ms-authldap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-gateway/ms-gateway.iml" filepath="$PROJECT_DIR$/ms-gateway/ms-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-matières-premières/ms-matières-premières.iml" filepath="$PROJECT_DIR$/ms-matières-premières/ms-matières-premières.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-registry/ms-registry.iml" filepath="$PROJECT_DIR$/ms-registry/ms-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-testes/ms-testes.iml" filepath="$PROJECT_DIR$/ms-testes/ms-testes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msBeton/msBeton.iml" filepath="$PROJECT_DIR$/msBeton/msBeton.iml" />
+    </modules>
+  </component>
+</project>

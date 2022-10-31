@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ms-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-authLdap/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-authLdap/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-matières-premières/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-matières-premières/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-registry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-testes/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-testes/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msbeton/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msbeton/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

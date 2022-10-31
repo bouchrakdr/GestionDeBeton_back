@@ -1,0 +1,47 @@
+server:
+  port: 7777
+
+logging:
+  level:
+    org:
+      springframework:
+        cloud:
+          gateway: TRACE
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8888/eureka
+
+spring:
+  application:
+    name: ms-gateway
+
+  cloud:
+    gateway:
+      routes:
+        - id: route1
+          predicates:
+            - Path=/api/matieres/**
+          uri: lb://ms-matieres
+
+        - id: route2
+          predicates:
+            - Path=/api/auth/**
+          uri: lb://ms-auth
+
+        - id: route3
+          predicates:
+            - Path=/api/authldap/**
+          uri: lb://ms-authldap
+
+        - id: route3
+          predicates:
+            - Path=/api/test/**
+          uri: lb://ms-testes
+
+        - id: route4
+          predicates:
+            - Path=/api/beton/**
+          uri: lb://ms-beton
